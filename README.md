@@ -27,7 +27,7 @@ composer require rizkussef/laravel-sql-to-migration
 If not auto-discovered, register the service provider in `config/app.php`:
 
 ```php
-'providers' => [     Rizkussef\LaravelSqlToMigration\LaravelSqlToMigrationServiceProvider::class, ],
+'providers' => [     Rizkussef\LaravelSqlToMigration\SqlToMigrationServiceProvider::class, ],
 ```
 
 ---
@@ -61,7 +61,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
 
 bash
 ```bash
-php artisan sql:to-migration database/schema.sql --timestamps
+php artisan sql:sql-to-migration database/schema.sql --timestamps
 ```
 
 
