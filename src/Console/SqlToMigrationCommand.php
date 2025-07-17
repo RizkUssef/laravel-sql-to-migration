@@ -1,6 +1,6 @@
 <?php 
 
-namespace Rizkussef\LaravelSqlToMigration\Console\Commands;
+namespace Rizkussef\LaravelSqlToMigration\Console;
 
 use Exception;
 use Illuminate\Console\Command;
