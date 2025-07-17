@@ -25,6 +25,13 @@
   "require": {
     "php": "^8.0"
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Rizkussef\\LaravelSqlToMigration\\LaravelSqlToMigrationServiceProvider"
+      ]
+    }
+  },
   "require-dev": {
     "phpunit/phpunit": "^10.0"
   },
