@@ -2,12 +2,13 @@
   "name": "rizkussef/laravel-sql-to-migration",
   "description": "Convert SQL schema into Laravel migrations",
   "keywords": [
-    "laravel",
-    "migration",
-    "sql",
-    "database",
-    "converter",
-    "artisan"
+    "laravel sql to migration",
+    "convert sql to laravel migration",
+    "mysql to laravel migration generator",
+    "laravel migration from sql",
+    "sql to php artisan migration",
+    "laravel database migration tool",
+    "laravel migration generator package"
   ],
   "type": "library",
   "license": "MIT",
