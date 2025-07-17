@@ -1,6 +1,14 @@
 {
   "name": "rizkussef/laravel-sql-to-migration",
   "description": "Convert SQL schema into Laravel migrations",
+  "keywords": [
+    "laravel",
+    "migration",
+    "sql",
+    "database",
+    "converter",
+    "artisan"
+  ],
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -18,6 +26,6 @@
     "php": "^8.0",
     "illuminate/console": "^10.0"
   },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
