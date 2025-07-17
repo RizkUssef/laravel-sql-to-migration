@@ -24,7 +24,7 @@
   ],
   "require": {
     "php": "^8.0",
-    "illuminate/console": "^10.0"
+    "illuminate/console": "^9.0|^10.0|^11.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^10.0"
