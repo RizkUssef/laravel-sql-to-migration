@@ -28,7 +28,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Rizkussef\\LaravelSqlToMigration\\LaravelSqlToMigrationServiceProvider"
+        "Rizkussef\\LaravelSqlToMigration\\SqlToMigrationServiceProvider"
       ]
     }
   },
