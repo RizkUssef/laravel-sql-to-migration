@@ -1,14 +1,13 @@
 {
   "name": "rizkussef/laravel-sql-to-migration",
-  "description": "Convert SQL schema into Laravel migrations",
+  "description": "A Laravel package to convert raw SQL CREATE TABLE statements into Laravel migrations automatically.",
   "keywords": [
-    "laravel sql to migration",
+    "laravel",
+    "sql to migration",
+    "laravel migration generator",
     "convert sql to laravel migration",
-    "mysql to laravel migration generator",
-    "laravel migration from sql",
-    "sql to php artisan migration",
-    "laravel database migration tool",
-    "laravel migration generator package"
+    "mysql to laravel migration",
+    "php artisan migration generator"
   ],
   "type": "library",
   "license": "MIT",
