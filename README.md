@@ -24,12 +24,6 @@
 composer require rizkussef/laravel-sql-to-migration
 ```
 
-If not auto-discovered, register the service provider in `config/app.php`:
-
-```php
-'providers' => [     Rizkussef\LaravelSqlToMigration\SqlToMigrationServiceProvider::class, ],
-```
-
 ---
 
 ## 🚀 **Usage**
