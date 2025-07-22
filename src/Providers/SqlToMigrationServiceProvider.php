@@ -1,5 +1,5 @@
 <?php 
-namespace Rizkussef\LaravelSqlToMigration;
+namespace Rizkussef\LaravelSqlToMigration\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Rizkussef\LaravelSqlToMigration\Console\SqlToMigrationCommand;
