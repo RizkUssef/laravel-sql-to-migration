@@ -64,7 +64,7 @@ php artisan sql:sql-to-migration database/schema.sql --timestamps
 ### ✅ **Generated Migration**
 ```php
 Schema::create('orders', function (Blueprint $table) {
-    $table->bigIncrements('id');
+    $table->id();
     $table->unsignedBigInteger('user_id');
     $table->string('product_name', 255);
     $table->decimal('price', 8, 2)->default('0.00');
