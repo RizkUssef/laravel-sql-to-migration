@@ -115,7 +115,7 @@ class SqlToMigrationCommand extends Command{
                 } elseif (strpos($type, 'INT') !== false) {
                     // Use Laravel's id() helper for the primary `id` column
                     if ($colName === 'id' && strpos($extra, 'AUTO_INCREMENT') !== false) {
-                        $line = "            \\$table->id()";
+                        $line = "            \$table->id()";
                         $skipAttributes = true;
                     } elseif (strpos($extra, 'UNSIGNED') !== false && preg_match('/_id$/i', $colName)) {
                         // Only map unsigned INT columns that end with _id to unsignedBigInteger
